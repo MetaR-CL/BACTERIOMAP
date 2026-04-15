@@ -114,6 +114,13 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.app-brand:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .brand-mark {

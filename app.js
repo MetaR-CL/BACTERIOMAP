@@ -673,7 +673,7 @@ function render() {
 function renderHeader() {
   return `
     <header class="app-header">
-      <div class="app-brand">
+      <div class="app-brand" role="link" tabindex="0" title="Retour \u00e0 l'accueil" aria-label="Retour \u00e0 l'accueil" onclick="navigate('home')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();navigate('home');}">
         <div class="brand-mark">
           <svg viewBox="0 0 32 32" width="32" height="32">
             <circle cx="16" cy="16" r="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.4"/>
