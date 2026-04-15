@@ -1,0 +1,136 @@
+{
+  "snc": {
+    "id": "snc",
+    "nom": "Système nerveux central",
+    "sousNom": "LCR / Méninges",
+    "description": "Site normalement stérile. Tout germe isolé est significatif. L'analyse du LCR est une urgence diagnostique absolue nécessitant une prise en charge immédiate.",
+    "prelevements": [
+      "LCR par ponction lombaire",
+      "LCR par dérivation ventriculaire"
+    ],
+    "transport": "Acheminement immédiat au laboratoire (< 30 min). Ne jamais réfrigérer. Incubation rapide.",
+    "commentaire": "Site stérile — pas de flore normale. Urgence absolue : Gram + culture + antigènes solubles si suspicion méningite."
+  },
+  "yeux": {
+    "id": "yeux",
+    "nom": "Yeux",
+    "sousNom": "Conjonctive / Cornée",
+    "description": "Prélèvements oculaires : conjonctivaux, cornéens, vitréens. La flore conjonctivale est pauvre et transitoire.",
+    "prelevements": [
+      "Écouvillon conjonctival",
+      "Grattage cornéen",
+      "Ponction de chambre antérieure",
+      "Biopsie vitréenne"
+    ],
+    "transport": "Acheminement rapide. Milieux d'ensemencement au lit du patient pour grattages cornéens.",
+    "commentaire": "Flore conjonctivale transitoire limitée. Tout germe isolé en culture pure est potentiellement significatif."
+  },
+  "orl": {
+    "id": "orl",
+    "nom": "ORL",
+    "sousNom": "Oreilles, nez, gorge, sinus",
+    "description": "Sphère ORL : prélèvements de gorge, nasaux, auriculaires, sinusiens. Flore commensale riche, interprétation en contexte clinique.",
+    "prelevements": [
+      "Écouvillon de gorge",
+      "Prélèvement nasal",
+      "Écouvillon auriculaire",
+      "Ponction sinusienne"
+    ],
+    "transport": "Écouvillon en milieu de transport (Amies/Stuart). Acheminement < 2h.",
+    "commentaire": "Flore commensale abondante. Recherche ciblée de pathogènes (SGA, diphtérie, etc.)."
+  },
+  "respiratoire": {
+    "id": "respiratoire",
+    "nom": "Voies respiratoires",
+    "sousNom": "Poumons / Bronches",
+    "description": "Prélèvements respiratoires hauts et bas. La qualité du prélèvement est essentielle (score de Bartlett pour les expectorations).",
+    "prelevements": [
+      "Expectoration",
+      "Aspiration bronchique",
+      "LBA (lavage broncho-alvéolaire)",
+      "Brosse protégée"
+    ],
+    "transport": "Acheminement rapide (< 2h). Ne pas réfrigérer les prélèvements pour culture de mycobactéries.",
+    "commentaire": "Contamination fréquente par la flore oropharyngée. Évaluation cytologique obligatoire pour les expectorations."
+  },
+  "os_articulations": {
+    "id": "os_articulations",
+    "nom": "Os et articulations",
+    "sousNom": "Liquide articulaire / Biopsies osseuses",
+    "description": "Sites normalement stériles. Tout germe isolé est significatif. Prélèvements multiples recommandés (≥3-5 biopsies).",
+    "prelevements": [
+      "Liquide articulaire (ponction)",
+      "Biopsies osseuses peropératoires",
+      "Sonication de matériel prothétique"
+    ],
+    "transport": "Acheminement immédiat. Flacons d'hémoculture pour liquide articulaire si suspicion d'infection.",
+    "commentaire": "Site stérile. Prélèvements multiples indispensables pour distinguer contaminant de pathogène (règle ≥2/5 positifs)."
+  },
+  "cardiovasculaire": {
+    "id": "cardiovasculaire",
+    "nom": "Système cardiovasculaire",
+    "sousNom": "Hémocultures",
+    "description": "Site normalement stérile. Tout germe isolé est potentiellement significatif (sauf contamination cutanée). Prélèvement : flacons aérobies + anaérobies, ponction veineuse.",
+    "prelevements": [
+      "Hémocultures (flacons BACTEC)",
+      "Cathéters (culture quantitative/semi-quantitative)"
+    ],
+    "transport": "Incubation immédiate dans automate BACTEC FX. Ne jamais réfrigérer.",
+    "commentaire": "Site stérile — pas de flore normale. Attention aux contaminations par staphylocoques à coagulase négative (SCN)."
+  },
+  "digestif": {
+    "id": "digestif",
+    "nom": "Système digestif",
+    "sousNom": "Estomac, intestins, selles",
+    "description": "Flore intestinale extrêmement riche et diverse. Recherche ciblée de pathogènes entériques spécifiques.",
+    "prelevements": [
+      "Coproculture (selles)",
+      "Écouvillonnage rectal",
+      "Biopsie gastrique (H. pylori)"
+    ],
+    "transport": "Acheminement < 2h ou milieu de transport Cary-Blair pour selles. Réfrigérer si délai.",
+    "commentaire": "Flore digestive très abondante (~10¹¹ bactéries/g de selles). Recherche ciblée uniquement."
+  },
+  "urinaire": {
+    "id": "urinaire",
+    "nom": "Système urinaire",
+    "sousNom": "Reins, vessie, urines",
+    "description": "ECBU : examen le plus prescrit en microbiologie. Seuil de significativité ≥10³-10⁵ UFC/mL selon contexte clinique et type de prélèvement.",
+    "prelevements": [
+      "ECBU (milieu de jet)",
+      "Sondage urinaire",
+      "Ponction sus-pubienne",
+      "Uricult"
+    ],
+    "transport": "Acheminement < 2h ou réfrigération à +4°C (max 24h). Utilisation d'acide borique possible.",
+    "commentaire": "Urètre distal colonisé : flore cutanée et périnéale. Seuil de significativité variable selon le contexte."
+  },
+  "peau": {
+    "id": "peau",
+    "nom": "Peau et tissus mous",
+    "sousNom": "Plaies, abcès, brûlures",
+    "description": "La peau possède une flore résidente riche. Interprétation en fonction du site, du type de prélèvement et du contexte clinique.",
+    "prelevements": [
+      "Écouvillon de plaie (superficiel)",
+      "Ponction d'abcès",
+      "Biopsie tissulaire",
+      "Prélèvement de brûlure"
+    ],
+    "transport": "Milieu de transport (Amies). Acheminement rapide. Ponction d'abcès en seringue capped.",
+    "commentaire": "Flore cutanée résidente abondante. Privilégier les prélèvements profonds (ponction, biopsie) aux écouvillons superficiels."
+  },
+  "genital": {
+    "id": "genital",
+    "nom": "Système génital",
+    "sousNom": "Masculin / Féminin",
+    "description": "Flore vaginale dominée par les lactobacilles (flore de Döderlein). Recherche ciblée de pathogènes spécifiques.",
+    "prelevements": [
+      "Écouvillon vaginal",
+      "Écouvillon endocervical",
+      "Écouvillon urétral",
+      "Prélèvement de liquide prostatique"
+    ],
+    "transport": "Milieu de transport adapté. Acheminement rapide pour N. gonorrhoeae (fragile).",
+    "commentaire": "Flore vaginale riche dominée par les lactobacilles. Score de Nugent pour évaluer la flore. Recherche ciblée de pathogènes."
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "titre": "Infection urinaire communautaire",
+    "scenario": "Femme de 30 ans, brûlures mictionnelles, pollakiurie depuis 2 jours. Pas de fièvre. ECBU : >10⁵ UFC/mL, bacille Gram négatif, lactose +, indole +.",
+    "indices": [
+      "Gram négatif",
+      "Bacille",
+      "Lactose +",
+      "Indole +",
+      "Urinaire"
+    ],
+    "reponse": "Escherichia coli",
+    "explication": "E. coli est responsable de ~80% des infections urinaires communautaires. L'association lactose +/indole + est très évocatrice. C'est le premier germe à évoquer devant une cystite simple de la femme jeune.",
+    "difficulte": "facile"
+  },
+  {
+    "titre": "Méningite purulente de l'adulte",
+    "scenario": "Homme de 22 ans, céphalées intenses, raideur de nuque, fièvre 39.5°C, purpura des membres inférieurs. LCR : trouble, 2500 leucocytes/mm³ (95% PNN), glycorachie effondrée. Gram direct : diplocoques Gram négatif intracellulaires.",
+    "indices": [
+      "Gram négatif",
+      "Diplocoques",
+      "LCR purulent",
+      "Purpura",
+      "Intracellulaires"
+    ],
+    "reponse": "Neisseria meningitidis",
+    "explication": "Le tableau associant méningite purulente + purpura est très évocateur de méningocoque. Les diplocoques Gram négatif en grain de café intracellulaires sont caractéristiques. Urgence absolue : ceftriaxone immédiate et déclaration obligatoire.",
+    "difficulte": "facile"
+  },
+  {
+    "titre": "Diarrhée post-antibiotique",
+    "scenario": "Patient de 75 ans hospitalisé, sous ceftriaxone IV depuis 10 jours pour pneumonie. Apparition de diarrhées liquides profuses (>6 selles/jour), fièvre 38.2°C, douleurs abdominales. Leucocytose à 18 G/L.",
+    "indices": [
+      "Antibiotiques récents",
+      "Diarrhée nosocomiale",
+      "Personne âgée",
+      "Fièvre",
+      "Anaérobie strict"
+    ],
+    "reponse": "Clostridioides difficile",
+    "explication": "La triade 'antibiothérapie récente + diarrhée nosocomiale + personne âgée' est classique pour C. difficile. Le diagnostic repose sur la recherche de GDH et toxines A/B dans les selles. La ceftriaxone est un antibiotique particulièrement à risque.",
+    "difficulte": "facile"
+  },
+  {
+    "titre": "Pneumonie nosocomiale en réanimation",
+    "scenario": "Patient de 60 ans intubé-ventilé depuis 8 jours en réanimation. Sécrétions bronchiques verdâtres, abondantes, avec odeur fruitée. Fièvre 39°C. Aspiration bronchique : bacilles Gram négatif, >10⁶ UFC/mL, oxydase +, non fermentant.",
+    "indices": [
+      "Gram négatif",
+      "Bacille",
+      "Oxydase +",
+      "Non fermentant",
+      "Pigment vert",
+      "Nosocomial"
+    ],
+    "reponse": "Pseudomonas aeruginosa",
+    "explication": "L'association bacille Gram négatif oxydase + non fermentant + pigment vert (pyocyanine) + odeur fruitée est pathognomonique de P. aeruginosa. C'est l'agent majeur des pneumonies acquises sous ventilation mécanique (PAVM).",
+    "difficulte": "moyen"
+  },
+  {
+    "titre": "Endocardite sur valve prothétique",
+    "scenario": "Patient de 68 ans, porteur d'une valve aortique mécanique depuis 3 mois. Fièvre intermittente depuis 2 semaines, asthénie. Hémocultures : coques Gram positif en amas, catalase +, coagulase -, biofilm fort. 3/4 hémocultures positives au même germe.",
+    "indices": [
+      "Gram positif",
+      "Coques en amas",
+      "Catalase +",
+      "Coagulase -",
+      "Matériel prothétique",
+      "Biofilm"
+    ],
+    "reponse": "Staphylococcus epidermidis",
+    "explication": "S. epidermidis (SCN) est la 1ère cause d'endocardite sur valve prothétique précoce (<1 an). La positivité de 3/4 hémocultures au même germe élimine la contamination. Le biofilm permet la colonisation du matériel. Traitement : vancomycine + rifampicine + gentamicine ± remplacement valvulaire.",
+    "difficulte": "moyen"
+  },
+  {
+    "titre": "Gastro-entérite de retour de voyage",
+    "scenario": "Femme de 28 ans, retour de Thaïlande il y a 3 jours. Diarrhée aqueuse puis sanglante, crampes abdominales, fièvre 38.5°C. Coproculture sur milieu sélectif à 42°C : bacilles Gram négatif spiralés, oxydase +, catalase +.",
+    "indices": [
+      "Gram négatif",
+      "Spiralé",
+      "Oxydase +",
+      "42°C",
+      "Diarrhée sanglante",
+      "Voyage"
+    ],
+    "reponse": "Campylobacter jejuni",
+    "explication": "Campylobacter jejuni est la première cause bactérienne de gastro-entérite dans les pays développés. La croissance à 42°C en microaérophilie et la morphologie spiralée sont caractéristiques. La résistance aux fluoroquinolones est fréquente, l'azithromycine est le traitement de choix si nécessaire.",
+    "difficulte": "moyen"
+  },
+  {
+    "titre": "Infection ostéo-articulaire sur prothèse",
+    "scenario": "Homme de 72 ans, prothèse totale de hanche posée il y a 1 an. Douleur croissante depuis 3 mois, pas de fièvre. Sonication du matériel : bacille Gram positif fin, anaérobie strict, croissance à J5, catalase +, indole +.",
+    "indices": [
+      "Gram positif",
+      "Bacille fin",
+      "Anaérobie strict",
+      "Croissance lente",
+      "Catalase +",
+      "Matériel prothétique"
+    ],
+    "reponse": "Cutibacterium acnes",
+    "explication": "C. acnes (ex-Propionibacterium acnes) est une cause fréquente d'infections chroniques sur matériel ostéo-articulaire, en particulier les prothèses d'épaule et de hanche. Sa croissance très lente (5-14 jours) nécessite une incubation prolongée. La sonication du matériel augmente considérablement la sensibilité de détection.",
+    "difficulte": "difficile"
+  }
+]

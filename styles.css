@@ -1462,6 +1462,74 @@ body {
   .brand-mark svg { width: 26px; height: 26px; }
 }
 
+/* --- Data loading / error states --- */
+.data-loading,
+.data-error {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  text-align: center;
+  color: var(--text-secondary);
+  background: var(--bg-primary);
+}
+
+.data-loading-mark {
+  color: var(--accent);
+  animation: bacteriomap-pulse 1.4s ease-in-out infinite;
+}
+
+.data-loading-text {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+@keyframes bacteriomap-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50%      { transform: scale(1.08); opacity: 1; }
+}
+
+.data-error {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.data-error-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--accent);
+  font-family: var(--font-mono);
+}
+
+.data-error-msg {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.data-error-hint {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.data-error-hint code {
+  font-family: var(--font-mono);
+  background: var(--accent-faded);
+  color: var(--accent);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
 /* --- Print --- */
 @media print {
   .app-actions, .app-search, .comparison-bar, .nav-toolbar, .home-toolbar { display: none; }
